@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Pico y Placa</h2>
+<label>Pico y placa de lunes a viernes de 07:00 a 09:30 y de 16:00 a 19:30 Lunes:1-2,Martes:3-4,Miercoles:5-6,Jueves:7-8,Viernes:9-0</label><>
+<label> Insert plate number: </label>&nbsp;
+<input type="text" id=txtplate />
+<br>
+<label> Select Date: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="date" id="date-input">
+<br>
+<label> Insert Time (hh:mm): </label>
+<input type="text" id="hour">
+<br>
+<br>
+<input type="button" value="Validate" id="btnValidate" />
+<br>
+<br>
+<input type="button" value="Limpiar" id="btnLimpiar" />
+
+<label id="lblRespuesta"></label>
+<script src="~/Scripts/Validar.js"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+
+
